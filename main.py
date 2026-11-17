@@ -69,6 +69,7 @@ def make_empty_state() -> State:
 # ---------------------------------------------------------------------------
 # Helper functions (pure, so they are easy to unit test)
 # ---------------------------------------------------------------------------
+set_website_style("98")
 def is_number(text: str) -> bool:
     """Return True if text looks like a number such as 4, 2.5, or -90.4."""
     cleaned = text.strip()
